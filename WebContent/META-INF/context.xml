@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource name="jdbc/postgresql"
+auth="Container"
+driverClassName="org.postgresql.Driver"
+type="javax.sql.DataSource"
+url="jdbc:postgresql://127.0.0.1:5432/sf_taxi_analysis"
+username="jgc"
+password="jgc"
+maxActive="30"
+maxIdle="10"
+maxWait="1000" />
+</Context> 
